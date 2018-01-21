@@ -1,0 +1,10 @@
+th {
+  cursor: pointer
+}
+
+.divider {
+  & > td {
+    background: black;
+    height: 5px;
+  }
+}

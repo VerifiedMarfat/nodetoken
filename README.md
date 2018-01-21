@@ -1,64 +1,13 @@
-## TODO
-- caching
-- database (mongoDB using mongoose)
-- linting
-- documentation (from comments)
-- ..
+# NodeToken
 
-## Folder Structure
-```
-- src
-  - app
-    - routers
-    - controllers
-    - models
-  - database
-  - config
-    - index.js
-  - utils
-    - logger.js
+A NodeJS application using Redux to power the web application.
 
-- test
-  - *.spec.js
-- package.json
-- server.js
-```
+## Development
+### API
+Reference README file in `api` foloder for install instructions
+> `npm run api`
 
-## Environments
-1. Production [prod]
-> live code
+### WEB
+Reference README file in `web` foloder for install instructions
 
-2. Staging [uat]
-> UAT code - low priority
-
-3. Local [local]
-> development code
-
-4. Test [test]
-> test code (includes unit and integration)
-
-## Running the application
-
-### Requirements
-- Node && NPM v9.3.0
-
-### Kickstart
-1. `npm i`
-2. `npm start`
-
-### Testing
-1. `npm i -g mocha`
-2. `npm test`
-3. Visit [Mocha's website](https://mochajs.org/#getting-started) for more information
-
-### Wins
-- Tests
-- Documentations
-- Root path (Start from /src directory)
-- Foundation
-  - Routing
-  - Controllers
-  - Models
-  - Middlewares
-- Logging
-- Serializer
+> `npm run web`

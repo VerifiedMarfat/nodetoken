@@ -1,29 +1,27 @@
 {
   "name": "nodetoken",
-  "version": "0.0.1",
-  "description": "A framework to build an API in NodeJS",
-  "main": "server.js",
+  "version": "0.1.0",
+  "description": "A NodeJS application using Redux to power the web application.",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "cd api && npm start",
+    "web": "cd web && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VerifiedToken/nodetoken.git"
   },
   "keywords": [
+    "VerifiedToken",
     "Verified",
     "Token",
-    "VT",
-    "verifedtoken"
+    "VT"
   ],
-  "author": "Marfat Abdullahi",
+  "author": "Marfat Abdullahi @VerifiedMarfat",
   "license": "ISC",
-  "dependencies": {
-    "app-module-path": "^2.2.0",
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "structure": "^1.2.1",
-    "winston": "^2.4.0"
+  "bugs": {
+    "url": "https://github.com/VerifiedToken/nodetoken/issues"
   },
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "chai-http": "^3.0.0"
-  }
+  "homepage": "https://github.com/VerifiedToken/nodetoken#readme"
 }
